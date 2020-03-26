@@ -1,0 +1,9 @@
+target 'ios-jump-router' do
+
+# 路由组件化解耦
+  pod 'JLRoutes', '~> 2.0.5'
+
+  pod 'Masonry'
+
+end
+ 

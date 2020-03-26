@@ -1,0 +1,705 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE274808242C81A000E184F3 /* RouterConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = BE274807242C81A000E184F3 /* RouterConstant.m */; };
+		BE27480F242C8BCB00E184F3 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE27480E242C8BCB00E184F3 /* MineViewController.m */; };
+		BE274812242C8DF100E184F3 /* NaviViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE274811242C8DF100E184F3 /* NaviViewController.m */; };
+		BE274815242C8FB600E184F3 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE274814242C8FB600E184F3 /* SecondViewController.m */; };
+		BE475295242CA566001E7099 /* AppDelegate+RouterRegister.m in Sources */ = {isa = PBXBuildFile; fileRef = BE475294242CA566001E7099 /* AppDelegate+RouterRegister.m */; };
+		BE89F6BB242B4BAF0015DECC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE89F6BA242B4BAF0015DECC /* AppDelegate.m */; };
+		BE89F6BE242B4BAF0015DECC /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE89F6BD242B4BAF0015DECC /* SceneDelegate.m */; };
+		BE89F6C1242B4BAF0015DECC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE89F6C0242B4BAF0015DECC /* ViewController.m */; };
+		BE89F6C4242B4BAF0015DECC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE89F6C2242B4BAF0015DECC /* Main.storyboard */; };
+		BE89F6C7242B4BAF0015DECC /* ios_jump_router.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BE89F6C5242B4BAF0015DECC /* ios_jump_router.xcdatamodeld */; };
+		BE89F6C9242B4BB00015DECC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE89F6C8242B4BB00015DECC /* Assets.xcassets */; };
+		BE89F6CC242B4BB00015DECC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE89F6CA242B4BB00015DECC /* LaunchScreen.storyboard */; };
+		BE89F6CF242B4BB00015DECC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE89F6CE242B4BB00015DECC /* main.m */; };
+		BE89F6D9242B4BB10015DECC /* ios_jump_routerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE89F6D8242B4BB10015DECC /* ios_jump_routerTests.m */; };
+		BE89F6E4242B4BB10015DECC /* ios_jump_routerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE89F6E3242B4BB10015DECC /* ios_jump_routerUITests.m */; };
+		FBF0C11102B4BAC21A9B2260 /* libPods-ios-jump-router.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ABF05C4868CF6F74B44B705A /* libPods-ios-jump-router.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE89F6D5242B4BB10015DECC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE89F6AE242B4BAF0015DECC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE89F6B5242B4BAF0015DECC;
+			remoteInfo = "ios-jump-router";
+		};
+		BE89F6E0242B4BB10015DECC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE89F6AE242B4BAF0015DECC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE89F6B5242B4BAF0015DECC;
+			remoteInfo = "ios-jump-router";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ABF05C4868CF6F74B44B705A /* libPods-ios-jump-router.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ios-jump-router.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8F53FAA13725885CFC9EF70 /* Pods-ios-jump-router.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-jump-router.release.xcconfig"; path = "Target Support Files/Pods-ios-jump-router/Pods-ios-jump-router.release.xcconfig"; sourceTree = "<group>"; };
+		BE274806242C81A000E184F3 /* RouterConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RouterConstant.h; sourceTree = "<group>"; };
+		BE274807242C81A000E184F3 /* RouterConstant.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RouterConstant.m; sourceTree = "<group>"; };
+		BE27480D242C8BCB00E184F3 /* MineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		BE27480E242C8BCB00E184F3 /* MineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		BE274810242C8DF100E184F3 /* NaviViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NaviViewController.h; sourceTree = "<group>"; };
+		BE274811242C8DF100E184F3 /* NaviViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NaviViewController.m; sourceTree = "<group>"; };
+		BE274813242C8FB500E184F3 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		BE274814242C8FB600E184F3 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		BE475293242CA566001E7099 /* AppDelegate+RouterRegister.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+RouterRegister.h"; sourceTree = "<group>"; };
+		BE475294242CA566001E7099 /* AppDelegate+RouterRegister.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+RouterRegister.m"; sourceTree = "<group>"; };
+		BE89F6B6242B4BAF0015DECC /* ios-jump-router.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-jump-router.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE89F6B9242B4BAF0015DECC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BE89F6BA242B4BAF0015DECC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BE89F6BC242B4BAF0015DECC /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		BE89F6BD242B4BAF0015DECC /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		BE89F6BF242B4BAF0015DECC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BE89F6C0242B4BAF0015DECC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BE89F6C3242B4BAF0015DECC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE89F6C6242B4BAF0015DECC /* ios_jump_router.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ios_jump_router.xcdatamodel; sourceTree = "<group>"; };
+		BE89F6C8242B4BB00015DECC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE89F6CB242B4BB00015DECC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE89F6CD242B4BB00015DECC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE89F6CE242B4BB00015DECC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE89F6D4242B4BB10015DECC /* ios-jump-routerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-jump-routerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE89F6D8242B4BB10015DECC /* ios_jump_routerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ios_jump_routerTests.m; sourceTree = "<group>"; };
+		BE89F6DA242B4BB10015DECC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE89F6DF242B4BB10015DECC /* ios-jump-routerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-jump-routerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE89F6E3242B4BB10015DECC /* ios_jump_routerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ios_jump_routerUITests.m; sourceTree = "<group>"; };
+		BE89F6E5242B4BB10015DECC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC102849A2AF4E57A46FD779 /* Pods-ios-jump-router.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-jump-router.debug.xcconfig"; path = "Target Support Files/Pods-ios-jump-router/Pods-ios-jump-router.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE89F6B3242B4BAF0015DECC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBF0C11102B4BAC21A9B2260 /* libPods-ios-jump-router.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE89F6D1242B4BB10015DECC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE89F6DC242B4BB10015DECC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		337683D4105FA9EBA8F6EFC3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC102849A2AF4E57A46FD779 /* Pods-ios-jump-router.debug.xcconfig */,
+				B8F53FAA13725885CFC9EF70 /* Pods-ios-jump-router.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BE274805242C815700E184F3 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				BE274806242C81A000E184F3 /* RouterConstant.h */,
+				BE274807242C81A000E184F3 /* RouterConstant.m */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		BE274809242C81ED00E184F3 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				BE89F6B9242B4BAF0015DECC /* AppDelegate.h */,
+				BE89F6BA242B4BAF0015DECC /* AppDelegate.m */,
+				BE475293242CA566001E7099 /* AppDelegate+RouterRegister.h */,
+				BE475294242CA566001E7099 /* AppDelegate+RouterRegister.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		BE89F6AD242B4BAF0015DECC = {
+			isa = PBXGroup;
+			children = (
+				BE89F6B8242B4BAF0015DECC /* ios-jump-router */,
+				BE89F6D7242B4BB10015DECC /* ios-jump-routerTests */,
+				BE89F6E2242B4BB10015DECC /* ios-jump-routerUITests */,
+				BE89F6B7242B4BAF0015DECC /* Products */,
+				337683D4105FA9EBA8F6EFC3 /* Pods */,
+				DEA069182F3F7D9B73932CE3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BE89F6B7242B4BAF0015DECC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE89F6B6242B4BAF0015DECC /* ios-jump-router.app */,
+				BE89F6D4242B4BB10015DECC /* ios-jump-routerTests.xctest */,
+				BE89F6DF242B4BB10015DECC /* ios-jump-routerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE89F6B8242B4BAF0015DECC /* ios-jump-router */ = {
+			isa = PBXGroup;
+			children = (
+				BE274809242C81ED00E184F3 /* AppDelegate */,
+				BE274805242C815700E184F3 /* Router */,
+				BE89F6BC242B4BAF0015DECC /* SceneDelegate.h */,
+				BE89F6BD242B4BAF0015DECC /* SceneDelegate.m */,
+				BE89F6BF242B4BAF0015DECC /* ViewController.h */,
+				BE89F6C0242B4BAF0015DECC /* ViewController.m */,
+				BE274813242C8FB500E184F3 /* SecondViewController.h */,
+				BE274814242C8FB600E184F3 /* SecondViewController.m */,
+				BE27480D242C8BCB00E184F3 /* MineViewController.h */,
+				BE27480E242C8BCB00E184F3 /* MineViewController.m */,
+				BE274810242C8DF100E184F3 /* NaviViewController.h */,
+				BE274811242C8DF100E184F3 /* NaviViewController.m */,
+				BE89F6C2242B4BAF0015DECC /* Main.storyboard */,
+				BE89F6C8242B4BB00015DECC /* Assets.xcassets */,
+				BE89F6CA242B4BB00015DECC /* LaunchScreen.storyboard */,
+				BE89F6CD242B4BB00015DECC /* Info.plist */,
+				BE89F6CE242B4BB00015DECC /* main.m */,
+				BE89F6C5242B4BAF0015DECC /* ios_jump_router.xcdatamodeld */,
+			);
+			path = "ios-jump-router";
+			sourceTree = "<group>";
+		};
+		BE89F6D7242B4BB10015DECC /* ios-jump-routerTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE89F6D8242B4BB10015DECC /* ios_jump_routerTests.m */,
+				BE89F6DA242B4BB10015DECC /* Info.plist */,
+			);
+			path = "ios-jump-routerTests";
+			sourceTree = "<group>";
+		};
+		BE89F6E2242B4BB10015DECC /* ios-jump-routerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BE89F6E3242B4BB10015DECC /* ios_jump_routerUITests.m */,
+				BE89F6E5242B4BB10015DECC /* Info.plist */,
+			);
+			path = "ios-jump-routerUITests";
+			sourceTree = "<group>";
+		};
+		DEA069182F3F7D9B73932CE3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABF05C4868CF6F74B44B705A /* libPods-ios-jump-router.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE89F6B5242B4BAF0015DECC /* ios-jump-router */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE89F6E8242B4BB10015DECC /* Build configuration list for PBXNativeTarget "ios-jump-router" */;
+			buildPhases = (
+				B65DA861FEF051D8728DF8DB /* [CP] Check Pods Manifest.lock */,
+				BE89F6B2242B4BAF0015DECC /* Sources */,
+				BE89F6B3242B4BAF0015DECC /* Frameworks */,
+				BE89F6B4242B4BAF0015DECC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ios-jump-router";
+			productName = "ios-jump-router";
+			productReference = BE89F6B6242B4BAF0015DECC /* ios-jump-router.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE89F6D3242B4BB10015DECC /* ios-jump-routerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE89F6EB242B4BB10015DECC /* Build configuration list for PBXNativeTarget "ios-jump-routerTests" */;
+			buildPhases = (
+				BE89F6D0242B4BB10015DECC /* Sources */,
+				BE89F6D1242B4BB10015DECC /* Frameworks */,
+				BE89F6D2242B4BB10015DECC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE89F6D6242B4BB10015DECC /* PBXTargetDependency */,
+			);
+			name = "ios-jump-routerTests";
+			productName = "ios-jump-routerTests";
+			productReference = BE89F6D4242B4BB10015DECC /* ios-jump-routerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BE89F6DE242B4BB10015DECC /* ios-jump-routerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE89F6EE242B4BB10015DECC /* Build configuration list for PBXNativeTarget "ios-jump-routerUITests" */;
+			buildPhases = (
+				BE89F6DB242B4BB10015DECC /* Sources */,
+				BE89F6DC242B4BB10015DECC /* Frameworks */,
+				BE89F6DD242B4BB10015DECC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE89F6E1242B4BB10015DECC /* PBXTargetDependency */,
+			);
+			name = "ios-jump-routerUITests";
+			productName = "ios-jump-routerUITests";
+			productReference = BE89F6DF242B4BB10015DECC /* ios-jump-routerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE89F6AE242B4BAF0015DECC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "黄龙山";
+				TargetAttributes = {
+					BE89F6B5242B4BAF0015DECC = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					BE89F6D3242B4BB10015DECC = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = BE89F6B5242B4BAF0015DECC;
+					};
+					BE89F6DE242B4BB10015DECC = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = BE89F6B5242B4BAF0015DECC;
+					};
+				};
+			};
+			buildConfigurationList = BE89F6B1242B4BAF0015DECC /* Build configuration list for PBXProject "ios-jump-router" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE89F6AD242B4BAF0015DECC;
+			productRefGroup = BE89F6B7242B4BAF0015DECC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE89F6B5242B4BAF0015DECC /* ios-jump-router */,
+				BE89F6D3242B4BB10015DECC /* ios-jump-routerTests */,
+				BE89F6DE242B4BB10015DECC /* ios-jump-routerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE89F6B4242B4BAF0015DECC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE89F6CC242B4BB00015DECC /* LaunchScreen.storyboard in Resources */,
+				BE89F6C9242B4BB00015DECC /* Assets.xcassets in Resources */,
+				BE89F6C4242B4BAF0015DECC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE89F6D2242B4BB10015DECC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE89F6DD242B4BB10015DECC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B65DA861FEF051D8728DF8DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ios-jump-router-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE89F6B2242B4BAF0015DECC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE274815242C8FB600E184F3 /* SecondViewController.m in Sources */,
+				BE89F6CF242B4BB00015DECC /* main.m in Sources */,
+				BE27480F242C8BCB00E184F3 /* MineViewController.m in Sources */,
+				BE89F6C1242B4BAF0015DECC /* ViewController.m in Sources */,
+				BE274808242C81A000E184F3 /* RouterConstant.m in Sources */,
+				BE274812242C8DF100E184F3 /* NaviViewController.m in Sources */,
+				BE89F6BB242B4BAF0015DECC /* AppDelegate.m in Sources */,
+				BE89F6C7242B4BAF0015DECC /* ios_jump_router.xcdatamodeld in Sources */,
+				BE475295242CA566001E7099 /* AppDelegate+RouterRegister.m in Sources */,
+				BE89F6BE242B4BAF0015DECC /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE89F6D0242B4BB10015DECC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE89F6D9242B4BB10015DECC /* ios_jump_routerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE89F6DB242B4BB10015DECC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE89F6E4242B4BB10015DECC /* ios_jump_routerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE89F6D6242B4BB10015DECC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE89F6B5242B4BAF0015DECC /* ios-jump-router */;
+			targetProxy = BE89F6D5242B4BB10015DECC /* PBXContainerItemProxy */;
+		};
+		BE89F6E1242B4BB10015DECC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE89F6B5242B4BAF0015DECC /* ios-jump-router */;
+			targetProxy = BE89F6E0242B4BB10015DECC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE89F6C2242B4BAF0015DECC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE89F6C3242B4BAF0015DECC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE89F6CA242B4BB00015DECC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE89F6CB242B4BB00015DECC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE89F6E6242B4BB10015DECC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BE89F6E7242B4BB10015DECC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE89F6E9242B4BB10015DECC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC102849A2AF4E57A46FD779 /* Pods-ios-jump-router.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43Z98F4YUA;
+				INFOPLIST_FILE = "ios-jump-router/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.uu.gs2000;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BE89F6EA242B4BB10015DECC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8F53FAA13725885CFC9EF70 /* Pods-ios-jump-router.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43Z98F4YUA;
+				INFOPLIST_FILE = "ios-jump-router/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.uu.gs2000;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		BE89F6EC242B4BB10015DECC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43Z98F4YUA;
+				INFOPLIST_FILE = "ios-jump-routerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "samtake.ios-jump-routerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-jump-router.app/ios-jump-router";
+			};
+			name = Debug;
+		};
+		BE89F6ED242B4BB10015DECC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43Z98F4YUA;
+				INFOPLIST_FILE = "ios-jump-routerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "samtake.ios-jump-routerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-jump-router.app/ios-jump-router";
+			};
+			name = Release;
+		};
+		BE89F6EF242B4BB10015DECC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43Z98F4YUA;
+				INFOPLIST_FILE = "ios-jump-routerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "samtake.ios-jump-routerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ios-jump-router";
+			};
+			name = Debug;
+		};
+		BE89F6F0242B4BB10015DECC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43Z98F4YUA;
+				INFOPLIST_FILE = "ios-jump-routerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "samtake.ios-jump-routerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ios-jump-router";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE89F6B1242B4BAF0015DECC /* Build configuration list for PBXProject "ios-jump-router" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE89F6E6242B4BB10015DECC /* Debug */,
+				BE89F6E7242B4BB10015DECC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE89F6E8242B4BB10015DECC /* Build configuration list for PBXNativeTarget "ios-jump-router" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE89F6E9242B4BB10015DECC /* Debug */,
+				BE89F6EA242B4BB10015DECC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE89F6EB242B4BB10015DECC /* Build configuration list for PBXNativeTarget "ios-jump-routerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE89F6EC242B4BB10015DECC /* Debug */,
+				BE89F6ED242B4BB10015DECC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE89F6EE242B4BB10015DECC /* Build configuration list for PBXNativeTarget "ios-jump-routerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE89F6EF242B4BB10015DECC /* Debug */,
+				BE89F6F0242B4BB10015DECC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BE89F6C5242B4BAF0015DECC /* ios_jump_router.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BE89F6C6242B4BAF0015DECC /* ios_jump_router.xcdatamodel */,
+			);
+			currentVersion = BE89F6C6242B4BAF0015DECC /* ios_jump_router.xcdatamodel */;
+			path = ios_jump_router.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BE89F6AE242B4BAF0015DECC /* Project object */;
+}

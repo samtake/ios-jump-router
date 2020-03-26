@@ -1,0 +1,20 @@
+PODS:
+  - JLRoutes (2.0.6)
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - JLRoutes (~> 2.0.5)
+  - Masonry
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - JLRoutes
+    - Masonry
+
+SPEC CHECKSUMS:
+  JLRoutes: 92dcba8bdc54cc18af06ab5578ca1180cb3c83bb
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: 6070bf44ea66f01e628cdf97eb238b20bc934178
+
+COCOAPODS: 1.6.2
